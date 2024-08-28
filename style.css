@@ -8,7 +8,6 @@
     --white: hsl(0, 0%, 100%);
 }
 
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -80,6 +79,8 @@ body {
 
     text-align: center;
     color: var(--white);
+
+    margin: 0;
 }
 
 .card__name-location__location {
@@ -159,8 +160,4 @@ body {
 .card__links__button:focus, .card__links__button:focus .card__links__button__placeholder {
     background-color: var(--green);
     color: var(--grey-700);
-}
-
-h1 {
-    margin: 0;
 }
