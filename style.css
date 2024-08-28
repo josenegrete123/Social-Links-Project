@@ -160,3 +160,7 @@ body {
     background-color: var(--green);
     color: var(--grey-700);
 }
+
+h1 {
+    margin: 0;
+}
