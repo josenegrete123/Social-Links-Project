@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    width: 1440px;
+    height: 960px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+
+    width: 384px;
+    max-width: 384px;
+    height: 611px;
+
+    background: #1f1f1f;
+    border-radius: 12px;
+}
+
+.card__profile-pic {
+    content: url("./assets/images/avatar-jessica.jpeg");
+
+    width: 88px;
+    height: 88px;
+    
+    border-radius: 999px;
+}
