@@ -30,7 +30,7 @@ body {
     max-width: 384px;
     height: 611px;
 
-    background: #1f1f1f;
+    background: var(--grey-800);
     border-radius: 12px;
 }
 
@@ -79,4 +79,18 @@ body {
 
     text-align: center;
     color: var(--green);
+}
+
+.card__bio {
+    width: 304px;
+    height: 21px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    text-align: center;
+    color: white;
 }
