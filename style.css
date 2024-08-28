@@ -8,6 +8,17 @@
     --white: hsl(0, 0%, 100%);
 }
 
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--white);
+    margin-top: 1em;
+}
+.attribution a { 
+    color: hsl(228, 100%, 50%); 
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -28,7 +39,7 @@ body {
     padding: 40px;
     gap: 24px;
 
-    width: 384px;
+    width: auto;
     max-width: 384px;
     height: auto;
 
