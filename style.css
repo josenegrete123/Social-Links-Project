@@ -17,6 +17,8 @@ body {
     position: relative;
     width: 1440px;
     height: 960px;
+
+    background-color: var(--grey-900);
 }
 
 .card {
@@ -28,7 +30,7 @@ body {
 
     width: 384px;
     max-width: 384px;
-    height: 611px;
+    height: auto;
 
     background: var(--grey-800);
     border-radius: 12px;
@@ -47,15 +49,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     width: 304px;
-    height: 61px;
+    height: auto;
+    
     padding: 0px;
     gap: 4px;
 }
 
 .card__name-location__name {
     width: 304px;
-    height: 36px;
+    height: auto;
 
     font-family: "Inter";
     font-style: normal;
@@ -69,7 +73,7 @@ body {
 
 .card__name-location__location {
     width: 304px;
-    height: 21px;
+    height: auto;
 
     font-family: "Inter";
     font-style: normal;
@@ -83,7 +87,7 @@ body {
 
 .card__bio {
     width: 304px;
-    height: 21px;
+    height: auto;
 
     font-family: "Inter";
     font-style: normal;
@@ -93,4 +97,55 @@ body {
 
     text-align: center;
     color: white;
+}
+
+.card__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 304px;
+    height: auto;
+
+    padding: 0px;
+    gap: 16px;
+}
+
+.card__links__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+
+    width: 304px;
+    height: auto;
+
+    border-radius: 8px;
+    background-color: var(--grey-700);
+}
+
+.card__links__button__placeholder {
+    width: auto;
+    height: auto;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: white;
+}
+
+.card__links__button:hover, .card__links__button:hover .card__links__button__placeholder {
+    background-color: var(--green);
+    cursor: pointer;
+    color: var(--grey-700);
+}
+
+.card__links__button:focus, .card__links__button:focus .card__links__button__placeholder {
+    background-color: var(--green);
+    color: var(--grey-700);
 }
