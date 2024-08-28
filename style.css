@@ -42,3 +42,41 @@ body {
     
     border-radius: 999px;
 }
+
+.card__name-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 304px;
+    height: 61px;
+    padding: 0px;
+    gap: 4px;
+}
+
+.card__name-location__name {
+    width: 304px;
+    height: 36px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+
+    text-align: center;
+    color: var(--white);
+}
+
+.card__name-location__location {
+    width: 304px;
+    height: 21px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+
+    text-align: center;
+    color: var(--green);
+}
